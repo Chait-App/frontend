@@ -1,3 +1,4 @@
+"use client";
 import styles from "./layout.module.css"
 
 export default function Layout({ children }) {
@@ -9,7 +10,7 @@ export default function Layout({ children }) {
       <body>
        <div
           className={styles.header}
-        >From layout</div>
+        >Base Layout</div>
         <div>
           {children}
         </div>
